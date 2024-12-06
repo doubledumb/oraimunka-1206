@@ -77,3 +77,8 @@ article>img{
 aside>ol{
     margin-left: 20px;
 }
+
+aside>h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

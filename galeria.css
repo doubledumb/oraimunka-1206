@@ -1,0 +1,27 @@
+section{
+    grid-template-columns: 1fr;
+}
+
+#kepek{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+#kepek>img{
+    width: 100%;
+    height: auto;
+    border:2px solid rgb(0, 136, 255);
+    border-radius: 5px;
+}
+
+/*mobilos nézet*/
+
+@media only screen and (max-width:500px){
+    #kepek{
+        grid-template-columns: 1fr 1fr;
+    }
+    nav>a{
+        display: block;
+    }
+}
